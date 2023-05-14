@@ -11,7 +11,7 @@ I used a publicly available dataset consisting of chest X-ray images of COVID-19
 I used the VGG16 base model with a sequential model for COVID detection. The VGG16 model is a convolutional neural network that is well suited for image classification tasks. We added two fully connected layers to the VGG16 model to make predictions for the two classes: COVID and Normal. We trained the model for 25 epochs.
 <br
     
-<img src="https://github.com/atisamhaq123/Covid_detection/blob/main/images/3.png" style="height: 500px;width:auto">
+<img src="https://github.com/atisamhaq123/Covid_detection/blob/main/images/3.png">
 
 ## Model Performance:
 After training the model, it achieved a training accuracy of 97.9%. We evaluated the model using a classification report and obtained the following results
